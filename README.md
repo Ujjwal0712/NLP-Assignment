@@ -8,23 +8,23 @@ Word embeddings are a fundamental concept in Natural Language Processing (NLP) w
 
 The core logic follows these steps:
 
-    Tokenize a sample text corpus.
+    1. Tokenize a sample text corpus.
 
-    Build a co-occurrence matrix, counting how often words appear within a defined context window of each other.
+    2. Build a co-occurrence matrix, counting how often words appear within a defined context window of each other.
 
-    Apply TruncatedSVD to reduce the dimensionality of the sparse matrix into dense, low-dimensional embeddings.
+    3. Apply TruncatedSVD to reduce the dimensionality of the sparse matrix into dense, low-dimensional embeddings.
 
-    Visualize the final 2D embeddings on a scatter plot.
+    4. Visualize the final 2D embeddings on a scatter plot.
 
 Features
 
-    Distinct Word Extraction: Identifies all unique words (word types) in the corpus.
+    1. Distinct Word Extraction: Identifies all unique words (word types) in the corpus.
 
-    Co-occurrence Matrix Construction: Builds a matrix based on a user-defined context window size.
+    2. Co-occurrence Matrix Construction: Builds a matrix based on a user-defined context window size.
 
-    Dimensionality Reduction: Uses TruncatedSVD from scikit-learn to create dense vector embeddings.
+    3. Dimensionality Reduction: Uses TruncatedSVD from scikit-learn to create dense vector embeddings.
 
-    2D Visualization: Plots the word vectors using matplotlib to visually inspect semantic similarities.
+    4. 2D Visualization: Plots the word vectors using matplotlib to visually inspect semantic similarities.
 
 Adjust Parameters:
 
